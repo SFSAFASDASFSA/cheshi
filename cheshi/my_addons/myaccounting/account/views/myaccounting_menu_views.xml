@@ -1,0 +1,16 @@
+<odoo>
+    <menuitem id="myaccounting_root" name="会计">
+        <menuitem id="myaccounting_first_level_menu_property" name="总分类账">
+            <menuitem id="myaccounting_model_menu_action_property" action="myaccounting_property_act_window"/>
+        </menuitem>
+        <menuitem id="myaccounting_first_level_menu_type" name="明细分类账">
+            <menuitem id="myaccounting_model_menu_action_type" action="myaccounting_type_act_window"/>
+        </menuitem>
+        <menuitem id="myaccounting_first_level_menu_offer" name="科目余额">
+            <menuitem id="myaccounting_model_menu_action_offer" action="myaccounting_offer_act_window"/>
+        </menuitem>
+        <menuitem id="myaccounting_first_level_menu_tag" name="标签">
+            <menuitem id="myaccounting_model_menu_action_tag" action="myaccounting_tag_act_window"/>
+        </menuitem>
+    </menuitem>
+</odoo>
